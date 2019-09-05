@@ -1,0 +1,56 @@
+/* "*" selects everything */
+* {
+    box-sizing: border-box; /* The page measures padding inside the total size */
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Selects all h1's and h3's */
+h1, 
+h3 {
+    font-family: Helvetica, sans-serif; 
+}
+
+h1 {
+    margin: 2rem 0; 
+    text-align: center; 
+}
+
+h3 {
+    font-size: 1.4rem; 
+}
+
+div {
+    padding: 2rem; 
+}
+
+p {
+    font-size: 18px; 
+}
+
+/* "~" selects the second element when it follows the first element */
+p ~ p {
+    margin-top: 1.2rem; 
+}
+
+img {
+    display: block; 
+    margin: 1.5rem auto 0 auto; 
+}
+
+/* Starting a selector off with "." (as is ".parameters") selects a class */
+.prerequisites, 
+.install-vscode {
+    background-color: #8df; 
+}
+
+.parameters, 
+.install-browsersync {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.rationale, 
+.install-gitforwindows {
+    background-color: #ee5
+}
