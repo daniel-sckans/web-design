@@ -39,18 +39,25 @@ img {
 }
 
 /* Starting a selector off with "." (as is ".parameters") selects a class */
+.step-one, 
 .prerequisites, 
 .install-vscode {
     background-color: #8df; 
 }
 
+.step-two, 
 .parameters, 
 .install-browsersync {
     background-color: #000; 
     color: #fff; 
 }
 
+.step-three, 
 .rationale, 
 .install-gitforwindows {
     background-color: #ee5
+}
+
+.step-four {
+    background-color: #0f0; 
 }
