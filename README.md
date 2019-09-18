@@ -1,4 +1,4 @@
-##Basic Information and Website Design
+## Basic Information and Website Design
 
 This is the course Github repository for Basic Information and Website Design at Southwestern College, Kansas.  It hosts the course sample code and assignments.  
 
